@@ -94,10 +94,10 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 .form {
   display: flex;
   justify-content: center;
-  background-color: rgba(204, 168, 233, 0.781);
+  background-color: rgba(24, 17, 51, 0.493);
   margin-top: 20px;
   width: 600px;
-  box-shadow: 0 0 10px rgba(34, 30, 41, 0.575);
+  box-shadow: 0 0 10px rgba(17, 5, 36, 0.63);
   margin-left: 500px;
   margin-bottom: 20px;
 }
