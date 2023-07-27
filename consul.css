@@ -1,0 +1,187 @@
+/***********************navbaaaaar**********************/
+.container-fluid {
+  background-color: rgba(141, 90, 165, 0.171);
+  height: 150px;
+  position: sticky;
+}
+.container-fluid a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+  font-size: x-large;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.container-fluid a:hover {
+  color: rgb(136, 84, 168);
+  background-color: rgba(247, 249, 251, 0.486);
+  border-radius: 3em;
+  border: 0px;
+}
+.nav-text {
+  font-family: cursive;
+  font-size: 300%;
+  text-shadow: 0 0 10px rgba(82, 69, 100, 0.5);
+}
+.text2 {
+  font-family: cursive;
+  font-size: 200%;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  border-radius: 10em;
+  height: 150px;
+  margin-right: 20px;
+  border: 5px solid;
+  border-color: rgb(144, 91, 194);
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#b1 {
+  background-color: rgba(234, 227, 240, 0.554);
+}
+
+.title {
+  margin-bottom: 20px;
+  height: 250px;
+  background-image: url(nut.jpg);
+  background-size: cover;
+}
+.title h1 {
+  padding-top: 70px;
+  color: rgba(255, 255, 255, 0.925);
+  font-family: cursive;
+  text-align: center;
+  font-weight: bold;
+}
+#res {
+  margin-top: 5px;
+  border: 2px solid;
+  height: 30px;
+  margin-right: 10px;
+  background-color: rgb(255, 240, 254);
+  border-radius: 0.5em;
+  margin-bottom: 5px;
+}
+#resu {
+  margin-top: 5px;
+  border: 2px solid;
+  height: 30px;
+  margin-right: 10px;
+  background-color: rgb(255, 240, 254);
+  border-radius: 0.5em;
+  margin-bottom: 5px;
+}
+#result {
+  margin-top: 5px;
+  border: 2px solid;
+  height: 30px;
+  margin-right: 10px;
+  background-color: rgb(255, 240, 254);
+  border-radius: 0.5em;
+  margin-bottom: 5px;
+}
+.indi h1 {
+  text-align: center;
+  font-family: cursive;
+  color: rgb(136, 42, 70);
+  margin-right: 150px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.781);
+  margin-top: 20px;
+  width: 600px;
+  border: 2px solid;
+  border-color: brown;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+#btn {
+  margin-top: 12px;
+  border-radius: 3px;
+  border-color: brown;
+  background-color: rgb(255, 255, 255);
+  margin-right: 10px;
+  font-family: cursive;
+}
+.form input {
+  margin-top: 12px;
+  border-radius: 3px;
+  border-color: brown;
+  background-color: rgb(255, 255, 255);
+  margin-right: 10px;
+  font-family: cursive;
+}
+.form label {
+  font-family: cursive;
+  color: rgb(195, 56, 56);
+  font-size: large;
+  font-weight: 600;
+}
+.form h1 {
+  font-family: cursive;
+  color: rgb(195, 56, 56);
+  padding-right: 20px;
+  padding-left: 12px;
+}
+legend {
+  font-family: cursive;
+  color: rgb(102, 33, 33);
+  margin-left: 550px;
+  font-size: large;
+}
+#tab {
+  border-collapse: collapse;
+  width: 50%;
+  border: 2px solid rgb(214, 79, 79);
+  justify-content: center;
+  background-color: rgb(253, 254, 255);
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+#tab th,
+td {
+  font-family: cursive;
+  font-size: large;
+  padding: 4px;
+  text-align: center;
+  border: 2px rgb(214, 79, 79) solid;
+}
+#tab td {
+  font-size: large;
+  padding: 4px;
+  text-align: center;
+  border: 2px rgb(214, 79, 79) solid;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.image img {
+  margin-right: 70px;
+  height: 300px;
+  width: 400px;
+}
+.proverbe {
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: 500;
+  color: rgb(165, 29, 29);
+  padding-left: 200px;
+}
+/*****foooter********/
+#footer {
+  background-color: rgba(141, 90, 165, 0.171);
+  clear: both;
+  height: 150px;
+  border-radius: 5em;
+}

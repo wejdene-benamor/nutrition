@@ -1,0 +1,115 @@
+/***********************navbaaaaar**********************/
+.container-fluid {
+  background-color: rgba(141, 90, 165, 0.171);
+  height: 150px;
+  position: sticky;
+}
+.container-fluid a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+  font-size: x-large;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.container-fluid a:hover {
+  color: rgb(136, 84, 168);
+  background-color: rgba(247, 249, 251, 0.486);
+  border-radius: 3em;
+  border: 0px;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  border-radius: 10em;
+  height: 150px;
+  margin-right: 20px;
+  border: 5px solid;
+  border-color: rgb(144, 91, 194);
+  width: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#b1 {
+  background-color: rgba(234, 227, 240, 0.554);
+}
+.nav-text {
+  font-family: cursive;
+  font-size: 300%;
+  text-shadow: 0 0 10px rgba(82, 69, 100, 0.5);
+}
+.text2 {
+  font-family: cursive;
+  font-size: 200%;
+}
+/**********seeection1******/
+.app1 img {
+  border-radius: 2em;
+  height: 500px;
+}
+.app1 {
+  margin-left: 400px;
+  display: inline-flex;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.678);
+}
+.para {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(165, 65, 65);
+  list-style: none;
+  padding-left: 20px;
+}
+.app1 p {
+  width: 500px;
+  font-family: cursive;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(24, 15, 15);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+h1 {
+  padding-top: 12px;
+  text-align: center;
+  color: rgb(104, 28, 28);
+  font-family: cursive;
+}
+/***sec2****/
+.appro {
+  width: 1000px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 100px;
+  background-color: rgba(240, 248, 255, 0.678);
+}
+.appro h1 {
+  text-decoration: underline;
+  text-shadow: 0 0 10px rgba(82, 69, 100, 0.5);
+}
+.appro p {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: larger;
+  padding-left: 30px;
+}
+.ima {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.ima img {
+  padding-left: 30px;
+}
+/*****foooter********/
+#footer {
+  background-color: rgba(141, 90, 165, 0.171);
+  clear: both;
+  height: 150px;
+  border-radius: 5em;
+}

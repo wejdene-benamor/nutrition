@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Calcul du poids idéal</h2>
+    <label for="height">Taille (en cm):</label>
+    <input
+      type="number"
+      step="0,01"
+      id="height"
+      placeholder="Entrez votre taille en cm"
+    />
+
+    <label for="gender">Femme:</label>
+    <input type="checkbox" id="gender" />
+
+    <button onclick="calculateIdealWeight()">Calculer</button>
+
+    <p id="result"></p>
+
+    <script>
+      function calculateIdealWeight() {
+        const height = document.getElementById("height").value;
+        const isFemale = document.getElementById("gender").checked;
+
+        if (isNaN(height) || height <= 0) {
+          alert("Veuillez entrer une taille valide en cm.");
+          return;
+        }
+
+        let idealWeight;
+        if (isFemale) {
+          // Formule pour le poids idéal d'une femme
+          idealWeight = height - 100 - (height - 150) / 2.5;
+        } else {
+          // Formule pour le poids idéal d'un homme
+          idealWeight = height - 100 - (height - 150) / 4;
+        }
+
+        // Affichage du résultat
+        const resultElement = document.getElementById("result");
+        resultElement.textContent = `Votre poids idéal est ${idealWeight.toFixed(
+          2
+        )} kg.`;
+      }
+    </script>
+  </body>
+</html>
