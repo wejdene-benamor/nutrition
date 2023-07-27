@@ -48,11 +48,11 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 .title {
   margin-bottom: 20px;
   height: 250px;
-  background-image: url(nut.jpg);
+  background-image: url(pint3.jpg);
   background-size: cover;
 }
 .title h1 {
-  padding-top: 70px;
+  padding-top: 100px;
   color: rgba(255, 255, 255, 0.925);
   font-family: cursive;
   text-align: center;
@@ -63,7 +63,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
   border: 2px solid;
   height: 30px;
   margin-right: 10px;
-  background-color: rgb(255, 240, 254);
+  background-color: rgb(255, 255, 255);
   border-radius: 0.5em;
   margin-bottom: 5px;
 }
@@ -72,7 +72,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
   border: 2px solid;
   height: 30px;
   margin-right: 10px;
-  background-color: rgb(255, 240, 254);
+  background-color: rgb(255, 255, 255);
   border-radius: 0.5em;
   margin-bottom: 5px;
 }
@@ -81,31 +81,29 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
   border: 2px solid;
   height: 30px;
   margin-right: 10px;
-  background-color: rgb(255, 240, 254);
+  background-color: rgb(255, 255, 255);
   border-radius: 0.5em;
   margin-bottom: 5px;
 }
 .indi h1 {
   text-align: center;
   font-family: cursive;
-  color: rgb(136, 42, 70);
+  color: rgb(42, 10, 63);
   margin-right: 150px;
 }
 .form {
   display: flex;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.781);
+  background-color: rgba(204, 168, 233, 0.781);
   margin-top: 20px;
   width: 600px;
-  border: 2px solid;
-  border-color: brown;
+  box-shadow: 0 0 10px rgba(34, 30, 41, 0.575);
   margin-left: 500px;
   margin-bottom: 20px;
 }
 #btn {
   margin-top: 12px;
   border-radius: 3px;
-  border-color: brown;
   background-color: rgb(255, 255, 255);
   margin-right: 10px;
   font-family: cursive;
@@ -113,33 +111,32 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 .form input {
   margin-top: 12px;
   border-radius: 3px;
-  border-color: brown;
   background-color: rgb(255, 255, 255);
   margin-right: 10px;
   font-family: cursive;
 }
 .form label {
   font-family: cursive;
-  color: rgb(195, 56, 56);
+  color: rgb(42, 10, 63);
   font-size: large;
   font-weight: 600;
 }
 .form h1 {
   font-family: cursive;
-  color: rgb(195, 56, 56);
+  color: rgb(42, 10, 63);
   padding-right: 20px;
   padding-left: 12px;
 }
 legend {
   font-family: cursive;
-  color: rgb(102, 33, 33);
+  color: rgb(42, 10, 63);
   margin-left: 550px;
   font-size: large;
 }
 #tab {
   border-collapse: collapse;
   width: 50%;
-  border: 2px solid rgb(214, 79, 79);
+  border: 2px solid rgb(42, 10, 63);
   justify-content: center;
   background-color: rgb(253, 254, 255);
   margin-left: 350px;
@@ -152,13 +149,13 @@ td {
   font-size: large;
   padding: 4px;
   text-align: center;
-  border: 2px rgb(214, 79, 79) solid;
+  border: 2px rgb(42, 10, 63) solid;
 }
 #tab td {
   font-size: large;
   padding: 4px;
   text-align: center;
-  border: 2px rgb(214, 79, 79) solid;
+  border: 2px rgb(42, 10, 63) solid;
 }
 .image {
   display: flex;

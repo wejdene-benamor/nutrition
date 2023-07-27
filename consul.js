@@ -25,11 +25,6 @@ async function calculateIdealWeight(event) {
   const height = document.getElementById("height").value;
   const isFemale = document.getElementById("gender").checked;
 
-  if (isNaN(height) || height <= 0) {
-    alert("Veuillez entrer une taille valide en cm.");
-    return;
-  }
-
   let idealWeight;
   if (isFemale) {
     // Formule pour le poids idéal d'une femme
@@ -41,9 +36,7 @@ async function calculateIdealWeight(event) {
 
   // Affichage du résultat
   const resultElement = document.getElementById("result");
-  resultElement.textContent = `Votre poids idéal est ${idealWeight.toFixed(
-    2
-  )} kg.`;
+  resultElement.textContent = `Votre poids idéal est ${idealWeight} kg.`;
 }
 
 async function test(event) {
