@@ -48,3 +48,5 @@ async function test(event) {
   var resu = w / (h * h);
   document.getElementById("resu").innerHTML = "<p>" + resu + "</p>";
 }
+
+// dz
