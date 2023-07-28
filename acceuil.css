@@ -34,6 +34,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 }
 #b1 {
   background-color: hsla(272, 30%, 92%, 0.553);
+  width: 100%;
 }
 .nav1 {
   background-image: url(dietetique.jpg);
